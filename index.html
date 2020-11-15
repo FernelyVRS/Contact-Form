@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Form</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/924c7b130f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-    
+    <div class="content">
+        <h1 class="logo">Contact <span>Us</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contact us</h3>
+                <form action="">
+                    <p>
+                        <label>Fullname</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="">
+                    </p>
+                    <p>
+                        <label>Phone</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Affair</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                        <label>Message</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Santo Domingo, DR.</li>
+                    <li><i class="fas fa-phone"></i> 809-555-5555</li>
+                    <li><i class="fa fa-envelope-open-text"></i> company@company.com</li>
+                </ul>
+                
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam earum nam perspiciatis architecto sequi quia maxime assumenda eveniet accusamus alias?</p>
+
+                <p>Company.com</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
